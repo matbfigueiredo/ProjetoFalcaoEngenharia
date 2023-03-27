@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Sarala:wght@400;700&display=swap');
+
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ text-align: center;
+ -webkit-text-fill-color: rgb(255, 255, 255);
+ word-wrap: break-word;
+ overflow-wrap: break-word;
+}
+
+body {
+    font-size: 100%;
+    background: rgba(9, 37, 85, 1) url("https://calconstructionlaw.files.wordpress.com/2015/04/construction-e1430103068745.jpg") no-repeat right top fixed;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1;
+    background-color: rgba(98, 130, 153, 0.0);
+    position: fixed;
+    width: 100%;
+}
+
+.brasil {
+    position: absolute;
+width: 28px;
+height: 20px;
+left: 1087px;
+top: 65px;
+}
+
+.mexico {
+    position: absolute;
+width: 28px;
+height: 20px;
+left: 1123px;
+top: 65px;
+}
+
+.home {
+    padding-top: 230px;
+    padding-bottom: 233px;
+}
+
+h1 {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 85px;
+}
+
+h2 {
+  font-family: 'Sarala', sans-serif;
+  font-size: 45px;
+}
+
+.roda-pe {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0px;
+    background-color: rgba(98, 130, 153, 0.0)
+}
+
+.icon {
+    position: fixed;
+    bottom: 60px;
+    right: 30px;
+    font-size: 30px;
+    background-color: #01e675;
+    color: #ffffff;
+    border-radius: 50%;
+    padding: 6px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;
+    z-index: 100;
+    box-shadow: 2px 2px 2px #c0bdbd;
+  }
+  
+  .icon .fab{
+    padding-top: 9px;
+  }
+  
+  .icon:hover{
+    background-color: #fff;
+    color: #029e3b;
+    font-weight: 900;
+    box-shadow: 2px 2px 20px #5fe690;
+  }
+
+  .botao-enviar {
+    display: flex;
+    padding: 8px;
+    flex-direction: column;
+    align-items: center;
+    -webkit-text-fill-color: rgba(98, 130, 153);
+    display: flexbox;
+
+  }

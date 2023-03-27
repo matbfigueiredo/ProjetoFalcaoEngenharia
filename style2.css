@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Sarala:wght@400;700&display=swap');
+
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ text-align: center;
+ -webkit-text-fill-color: rgb(255, 255, 255);
+ word-wrap: break-word;
+ overflow-wrap: break-word;
+}
+
+body {
+    font-size: 100%;
+    background: #FFFFFF;
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1px;
+  background-color: rgba(98, 130, 153);
+  position: fixed;
+  width: 100%;
+}
+
+.brasil {
+    position: absolute;
+width: 28px;
+height: 20px;
+left: 1070px;
+top: 65px;
+}
+
+.mexico {
+    position: absolute;
+width: 28px;
+height: 20px;
+left: 1110px;
+top: 65px;
+}
+
+.roda-pe {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0px;
+    background-color: rgba(98, 130, 153)
+}
+
+.icon {
+  position: fixed;
+  bottom: 60px;
+  right: 30px;
+  font-size: 30px;
+  background-color: #01e675;
+  color: #ffffff;
+  border-radius: 50%;
+  padding: 6px;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  text-decoration: none;
+  z-index: 100;
+  box-shadow: 2px 2px 2px #c0bdbd;
+}
+
+.icon .fab{
+  padding-top: 9px;
+}
+
+.icon:hover{
+  background-color: #fff;
+  color: #029e3b;
+  font-weight: 900;
+  box-shadow: 2px 2px 20px #5fe690;
+}
+
+  .pepe {
+    padding-right: 200px;
+    padding-left: 150px;
+    padding-top: 97px;
+    padding-bottom: 155px;
+  }
+
+  .sobreemp {
+    padding-right: 250px;
+    padding-top: 55px;
+    padding-bottom: 30px;
+  }
+
+  .msquemsomos {
+    display: flex;
+    flex-direction: row;
+  }
+
+  p {
+    font-size: 23px;
+    -webkit-text-fill-color: rgba(56, 96, 126)
+  }
+
+  strong {
+    -webkit-text-fill-color: rgba(56, 96, 126)
+  }
+
+  h1 {
+    font-family: 'JetBrains Mono', monospace;
+    padding-top: 133px;
+    padding: bottom 25px;;
+    font-size: 80px;
+  }

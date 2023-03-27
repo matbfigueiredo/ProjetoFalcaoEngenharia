@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Sarala:wght@400;700&display=swap');
+
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ text-align: center;
+ -webkit-text-fill-color: rgb(255, 255, 255);
+ word-wrap: break-word;
+ overflow-wrap: break-word;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1;
+    background-color: rgba(98, 130, 153, 0.50);
+    position: fixed;
+    width: 100%;
+}
+
+.brasil {
+    position: absolute;
+width: 28px;
+height: 20px;
+left: 1070px;
+top: 65px;
+}
+
+.mexico {
+    position: absolute;
+width: 28px;
+height: 20px;
+left: 1110px;
+top: 65px;
+}
+
+body {
+    background: rgba(9, 37, 85, 1)
+}
+
+.faleconosco {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 133px;
+    padding-bottom: 109px;
+}
+
+.texto-contato {
+  font-size: 65px;
+}
+
+h1 {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+mapa-titulo {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-loc {
+    display: flex;
+    flex-direction: column;
+}
+
+.envioemail {
+  display: flex;
+  flex-direction: column;
+}
+
+.botao-enviar {
+    display: flex;
+    padding: 8px;
+    flex-direction: column;
+    align-items: center;
+    -webkit-text-fill-color: rgba(9, 37, 85, 1);
+    display: flexbox;
+  }
+
+.icon {
+    position: fixed;
+    bottom: 60px;
+    right: 30px;
+    font-size: 30px;
+    background-color: #01e675;
+    color: #ffffff;
+    border-radius: 50%;
+    padding: 6px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;
+    z-index: 100;
+    box-shadow: 2px 2px 2px #c0bdbd;
+  }
+  
+  .icon .fab{
+    padding-top: 9px;
+  }
+  
+  .icon:hover{
+    background-color: #fff;
+    color: #029e3b;
+    font-weight: 900;
+    box-shadow: 2px 2px 20px #5fe690;
+  }
+
+  .roda-pe {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(98, 130, 153, 0.50)
+}
+
+input {
+  -webkit-text-fill-color: rgba(1, 1, 1, 1);
+}
